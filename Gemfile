@@ -38,7 +38,7 @@ gem "sdoc", group: :doc
 # Use Rails Html Sanitizer for HTML sanitization
 gem "rails-html-sanitizer"
 
-gem "react_on_rails", "~> 6.7.1"
+gem "react_on_rails"
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # mini_racer is probably faster than therubyracer
@@ -85,6 +85,7 @@ group :development, :test do
   gem "pry-stack_explorer"
   gem "pry-rescue"
   gem "pry-byebug"
+  gem "pry-remote"
 
   ################################################################################
   # Color console output
